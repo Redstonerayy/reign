@@ -57,6 +57,13 @@
 	padding: 30px;
 }
 
+@media screen and (max-width: 480px) {
+  .login {
+    border: none;
+		box-shadow: none;
+  }
+}
+
 .login-forms {
 	width: 100%;
 
@@ -70,7 +77,7 @@ form {
 		width: 100%;
 		position: relative;
 		height: 50px;
-		margin: 10px 0;
+		margin: 20px 0;
 
 		input {
 			width: 100%;
@@ -138,7 +145,7 @@ form {
 	.button {
 		width: 100%;
 		height: 50px;
-		margin: 10px 0;
+		margin: 30px 0;
 
 		input {
 			width: 100%;
